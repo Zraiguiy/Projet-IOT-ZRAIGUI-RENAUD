@@ -27,7 +27,6 @@ Ci-dessous la composition de la carte LoRa-E5-Dev Board utilisee. Ce qui nous a 
 
 ![carte_pui](https://user-images.githubusercontent.com/97834284/149670727-b3e66869-0b5c-4c8f-a1a1-6e8804345985.jpg)
 
-![carte_pui](https://user-images.githubusercontent.com/97834284/149661169-570fde21-30ee-4b36-89a1-b74b495b00a9.jpg)
 
 
 # Cout 
