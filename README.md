@@ -23,8 +23,9 @@ Ci-dessous la composition de la carte LoRa-E5-Dev Board utilisee. Ce qui nous a 
 1. Le boutton utilisateur 
 2. Les ports GPIO 
 3. Les LEDS
-![carte lora](https://www.robotshop.com/media/files/content/s/see/img/lora-e5-development-kit-lora-e5-stm32wle5jc-lorawan-worldwide-frequency-desc.jpg)
-![carte_lora](https://user-images.githubusercontent.com/97834284/149661099-29d54254-b605-4de7-9cc4-627f688a95a3.jpg)
+![carte_lora](https://user-images.githubusercontent.com/97834284/149670722-30d899a7-5acf-4402-bc62-4a5ade11cbff.jpg)
+
+![carte_pui](https://user-images.githubusercontent.com/97834284/149670727-b3e66869-0b5c-4c8f-a1a1-6e8804345985.jpg)
 
 ![carte_pui](https://user-images.githubusercontent.com/97834284/149661169-570fde21-30ee-4b36-89a1-b74b495b00a9.jpg)
 
