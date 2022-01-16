@@ -43,6 +43,7 @@ Il faudrait estimer un total de 13 000 € pour notre produit.
 # logiciel embarqué de l’objet sirène
 # Métriques logiciel du logiciel embarqué
 Nombre de ligne de codes : 150
+
 Taille fichier binaire : 45.4 kB 
 # Duree de vie 
 La carte LoRa peut supporter 2 batteris AA 3V, chaque batterie ayant une capacite de 1500 mhA
