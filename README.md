@@ -27,10 +27,10 @@ Ci-dessous la composition de la carte LoRa-E5-Dev Board utilisee. Ce qui nous a 
 
 
 # Cout 
-..*Kit de developpement LoRa : 25€
-..*Carte STM32f0discovery : 10€
-..*Buzzer electronique : 5€
-..*Cout pour 5000 unite produite : 40 x 5000 = 200 000€
+..* Kit de developpement LoRa : 25€
+..* Carte STM32f0discovery : 10€
+..* Buzzer electronique : 5€
+..* Cout pour 5000 unite produite : 40 x 5000 = 200 000€
 
 # Cout certifications
 ..*Certification ETSI pour les universités, organismes publics de recherche et associations d'utilisateurs à but non lucratif : 2000 €
