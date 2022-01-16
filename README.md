@@ -27,24 +27,24 @@ Ci-dessous la composition de la carte LoRa-E5-Dev Board utilisee. Ce qui nous a 
 
 
 # Cout 
-Kit de developpement LoRa : 25€
-Carte STM32f0discovery : 10€
-Buzzer electronique : 5€
-Cout pour 5000 unite produite : 40 x 5000 = 200 000€
+..*Kit de developpement LoRa : 25€
+..*Carte STM32f0discovery : 10€
+..*Buzzer electronique : 5€
+..*Cout pour 5000 unite produite : 40 x 5000 = 200 000€
 
 # Cout certifications
-Certification ETSI pour les universités, organismes publics de recherche et associations d'utilisateurs à but non lucratif : 2000 €
-Certification LoRa Alliance : 10 000 €/an pour obtenir acces au programme d'affiliation pour la certification
-Cout de la certification produit : 1000 € par produit
-Il faudrait estimer un total de 13 000 € pour notre produit.
+..*Certification ETSI pour les universités, organismes publics de recherche et associations d'utilisateurs à but non lucratif : 2000 €
+..*Certification LoRa Alliance : 10 000 €/an pour obtenir acces au programme d'affiliation pour la certification
+..*Cout de la certification produit : 1000 € par produit
+..*Il faudrait estimer un total de 13 000 € pour notre produit.
 
 # Implémentation du logiciel embarqué de l’objet défini
 # Format LPP des messages LoRaWAN uplink et downlink
 # logiciel embarqué de l’objet sirène
 # Métriques logiciel du logiciel embarqué
-Nombre de ligne de codes : 150
+..*Nombre de ligne de codes : 150
 
-Taille fichier binaire : 45.4 kB 
+..*Taille fichier binaire : 45.4 kB 
 # Duree de vie 
 La carte LoRa peut supporter 2 batteris AA 3V, chaque batterie ayant une capacite de 1500 mhA
 La carte a pour but de detecter un chagement brutale de temperature et d'informer au plus vite la personne concernee, on a donc decider de fixer un temps d'echantillonage de 20 secondes.
