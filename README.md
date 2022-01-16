@@ -1,26 +1,26 @@
 # Projet IOT
-#### Realise par ZRAIGUI Yassir et RENAUD Virgil 
-Lors de ce projet, nous avons du realise une alarme connecte en LoRaWAN.
+#### Réalisé par ZRAIGUI Yassir et RENAUD Virgil 
+Lors de ce projet, nous avons dû réaliser une alarme connectée au réseau LoRaWAN.
 
-Pour cela nous avions a disposition une carte LoRaWAN ainsis qu'un documentation appronfondie sur les differentes methodes necessaires a la realisation du projet.
+Pour cela nous avions à disposition une carte LoRaWAN ainsi qu'un documentation approfondie sur les différentes méthodes nécessaires à la réalisation du projet.
 
 # Architecture globale
-LoRaWAN est un protocole de communication utilisant des radio afin de connecte des objets a bas debit.
-Pour cela, LoRaWAN utilise la technologie radio LoRa. Cette technologie se base sur le "Chirp spreading spectrum" une modulation en frequence tres robuste contre le bruit, le multipath et l'effet doppler. Cette modulation est effectue sur des bandes de frequences publiques dont l'acces est reglementer selon la region. ![Chirp — Wikipédia](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Linear-chirp.svg/1200px-Linear-chirp.svg.png)
+LoRaWAN est un protocole de communication utilisant la radio afin de connecter des objets à bas débit.
+Pour cela, LoRaWAN utilise la technologie radio LoRa. Cette technologie se base sur le "Chirp spreading spectrum", une modulation en fréquence très robuste contre le bruit, le multipath et l'effet doppler. Cette modulation est effectuée sur des bandes de fréquences publiques dont l'accès est règlementé selon la région. ![Chirp — Wikipédia](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Linear-chirp.svg/1200px-Linear-chirp.svg.png)
 
-Notre alarme utilisera la technologie LoRa afin de communiquer avec un server ChirpStack. Ce serveur recoltre les donnees envoyee par notre carte et nous informe de leur arrive ou non grace a un journal.
+Notre alarme utilisera la technologie LoRa afin de communiquer avec un server ChirpStack. Ce serveur récolte les données envoyées par notre carte et nous informe de leur arrive ou non grâce a un journal.
 
-Enfin, on peut rediriger ces donnees vers l'application Cayenne. Cette application web permet d'afficher les donnees voulu sur un site web, permettant ainsi de facilement observer l'arrivee de donnees.
+Enfin, on peut rediriger ces données vers l'application Cayenne. Cette application web permet d'afficher les données voulues sur un site web, permettant ainsi de facilement observer l'arrivée de données.
 
-# Securite globale
-Afin de securiser la transmission des donnees, une cle est cree lors de la configuration du Chirpstack.
+# Sécurité globale
+Afin de sécuriser la transmission des données, une clé est créée lors de la configuration du Chirpstack.
 
-En effet, des l'enregistrement de notre carte dans la base de donnee du server, on obtient une "AppKey" qui sera necessaire a la connection et la programmation de la carte LoRaWAN.
+En effet, dès l'enregistrement de notre carte dans la base de donnée du server, on obtient une "AppKey" qui sera nécessaire a la connexion et la programmation de la carte LoRaWAN.
 
-# Architecture materielle
+# Architecture matérielle
 
-Ci-dessous la composition de la carte LoRa-E5-Dev Board utilisee. Ce qui nous a interesse  pour ce projet etaient : 
-1. Le boutton utilisateur 
+Ci-dessous la composition de la carte LoRa-E5-Dev Board utilisée. Ce qui nous a intéressé pour ce projet était : 
+1. Le bouton utilisateur 
 2. Les ports GPIO 
 3. Les LEDS
 
@@ -31,14 +31,14 @@ Ci-dessous la composition de la carte LoRa-E5-Dev Board utilisee. Ce qui nous a 
 
 
 # Cout 
-* Kit de developpement LoRa : 25€
+* Kit de développement LoRa : 25€
 * Carte STM32f0discovery : 10€
-* Buzzer electronique : 5€
-* Cout pour 5000 unite produite : 40 x 5000 = 200 000€
+* Buzzer électronique : 5€
+* Cout pour 5000 unités produites : 40 x 5000 = 200 000€
 
 # Cout certifications
 * Certification ETSI pour les universités, organismes publics de recherche et associations d'utilisateurs à but non lucratif : 2000 €
-* Certification LoRa Alliance : 10 000 €/an pour obtenir acces au programme d'affiliation pour la certification
+* Certification LoRa Alliance : 10 000 €/an pour obtenir accès au programme d'affiliation pour la certification
 * Cout de la certification produit : 1000 € par produit
 * Il faudrait estimer un total de 13 000 € pour notre produit.
 
@@ -48,12 +48,12 @@ Ci-dessous la composition de la carte LoRa-E5-Dev Board utilisee. Ce qui nous a 
 # Métriques logiciel du logiciel embarqué
 * Nombre de ligne de codes : 150
 * Taille fichier binaire : 45.4 kB 
-# Duree de vie 
-*La carte LoRa peut supporter 2 batteris AA 3V, chaque batterie ayant une capacite de 1500 mhA
-*La carte a pour but de detecter un chagement brutale de temperature et d'informer au plus vite la personne concernee, on a donc decider de fixer un temps d'echantillonage de 20 secondes.
-*On a fixer la datarate a 5, ce qui equivaut a un facteur de propagation SF7 et une bande passante de 125KHz, on obtinet avec ce parametre un debit binaire de 5470 bit/s
+# Durée de vie 
+*La carte LoRa peut supporter 2 batteries AA 3V, chaque batterie ayant une capacite de 1500 mAh.
+*La carte a pour but de détecter un changement brutal de température et d'informer au plus vite la personne concernée, on a donc décidé de fixer un temps d'échantillonnage de 20 secondes.
+*On a fixé le datarate a 5, ce qui équivaut à un facteur de propagation SF7 et une bande passante de 125KHz, on obtient avec ce paramètre un débit binaire de 5470 bit/s
 ![LoRaWAN-data-rates](https://user-images.githubusercontent.com/97834284/149666636-e4c14749-fa6d-48b2-8946-4f301ccd5fe1.png)
-En entrant ces parametres dans le calculateur de batterie ci-dessous, on obtient une duree de vie pour la batterie aux alentours 292 jours. Cependant, le calculateur se base sur un produit qui contient en plus d'un detecteur de temperature, un detecteur de CO2 et un accelerometre. Notre alarme devrait donc theoriquement durer plus longtemps.
+En entrant ces paramètres dans le calculateur de batterie ci-dessous, on obtient une durée de vie pour la batterie aux alentours de 292 jours. Cependant, le calculateur se base sur un produit qui contient en plus d'un détecteur de température, un détecteur de CO2 et un accéléromètre. Notre alarme devrait donc théoriquement durer plus longtemps.
 
 ![batterie](https://user-images.githubusercontent.com/97834284/149666301-6448f49d-da12-49de-be1a-cd0e97465412.png)
 
@@ -61,7 +61,7 @@ En entrant ces parametres dans le calculateur de batterie ci-dessous, on obtient
 # Analyse du cycle de vie
 # Comparaison
 
-| Produit |Cout|Duree de vie batteie|Securite |Temperature|CO2|Humidite|Mouvement
+| Produit |Cout|Durée de vie batterie|Sécurité |Température|CO2|Humidité|Mouvement
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Notre Alarme|40€|1 an| AppKey |Oui|Non|Non|Non
 |SmartVOX® | ??? |∞* | ???|Non|Non|Non|Non
@@ -74,4 +74,4 @@ En entrant ces parametres dans le calculateur de batterie ci-dessous, on obtient
 
 # Conclusion
 
-Malgres une alarme assez minimaliste, nous avons reussi a detecter la temperature, envoyer l'information au Chirpstack qui la renvoie sur Cayenne. Le signal sonore et lumineux s'activent des le changement brusque de temperature ou l'appui du boutton. Nous avons appris les bases de l'internet des objets et avons compris le fontionnement des differents aspects permettant la mise en route d'un objet connecte, que ce soit materiel ou logiciel.
+Malgré une alarme assez minimaliste, nous avons réussi à détecter la température, envoyer l'information au Chirpstack qui la renvoie vers Cayenne. Les signaux sonores et lumineux s'activent dès le changement brusque de température ou l'appui du bouton. Nous avons appris les bases de l'internet des objets et avons compris le fonctionnement des différents aspects permettant la mise en route d'un objet connecté, que ce soit matériel ou logiciel.
