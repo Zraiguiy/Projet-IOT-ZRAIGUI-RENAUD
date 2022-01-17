@@ -79,7 +79,7 @@ Afin de réaliser une ACV, il faut suivre 4 étapes :
 il est donc nécessaire de réaliser une ACV afin de s'assurer que celi-ci sera le moins nuisible et polluant au possible.
 * __Collecter les données__ : En entrée de notre système, on aura deux batteries AA 3V et en sortie des signaux radio
 * __Faire l'inventaire__ : Une carte électronique est principalement composée de cuivre, un matériau recyclable, les batteries utilisées le sont pas. De même, le buzzer utilisé peut facilement être rercyclé. En sortie, seulement des signaux radio sont produites et rare sont les cas ou ceux-ci peuvent être nuisible.
-* __Inrerpréter__ : Le produit n'est donc pas forcément polluant. Les problèmes que l'on pourrait recontrer serait l'abandon du produit ou son oubli. Pour résoudre se problème on pourrait ajouter envoyer un message à l'utilisateur vers la fin de vie de l'objet. On pourrait aussi remaplacer les piles par des piles rechargeables afin d'améliorer encore plus le cycle de vie du produit.
+* __Interpréter__ : Le produit n'est donc pas forcément polluant. Les problèmes que l'on pourrait recontrer serait l'abandon du produit ou son oubli. Pour résoudre se problème on pourrait ajouter envoyer un message à l'utilisateur vers la fin de vie de l'objet. On pourrait aussi remaplacer les piles par des piles rechargeables afin d'améliorer encore plus le cycle de vie du produit.
 ![acv](https://user-images.githubusercontent.com/97834284/149724973-f9c4cfd1-eda8-4c96-abd2-c27562b9817c.png)
 
 
