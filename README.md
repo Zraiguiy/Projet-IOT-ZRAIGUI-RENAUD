@@ -60,6 +60,12 @@ Afin de pourvoir mettre en ventre notre produit, il est nécessaire d'obtenir pl
 * Taille fichier binaire : 45.4 kB 
 # Démonstration du programme
 
+On a placé un seuil de température à 26°C, on peut voir que quand la température est au dessous de ce seuil, le digital input est à 0, l'alarme est désactivée.
+Quand la température est au dessus du seuil, le digital input est à 1, l'alarme sonne.
+![cayenne1](https://user-images.githubusercontent.com/97834284/149768873-391cbe56-cdd1-4eeb-add8-bf5e70d1aa71.png)
+![cayenne2](https://user-images.githubusercontent.com/97834284/149768878-bd723657-4a83-4050-bdd4-b8a7a875da62.png)
+![terminal](https://user-images.githubusercontent.com/97834284/149768881-13a38a90-7cf0-41c6-9d86-f8042754a91d.png)
+
 
 # Durée de vie 
 * La carte LoRa peut supporter 2 batteries AA 3V, chaque batterie ayant une capacite de 1500 mAh.
