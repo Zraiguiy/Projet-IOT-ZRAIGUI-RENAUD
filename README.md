@@ -65,7 +65,8 @@ Quand la température est au dessus du seuil, le digital input est à 1, l'alarm
 ![cayenne1](https://user-images.githubusercontent.com/97834284/149768873-391cbe56-cdd1-4eeb-add8-bf5e70d1aa71.png)
 ![cayenne2](https://user-images.githubusercontent.com/97834284/149768878-bd723657-4a83-4050-bdd4-b8a7a875da62.png)
 ![terminal](https://user-images.githubusercontent.com/97834284/149768881-13a38a90-7cf0-41c6-9d86-f8042754a91d.png)
-
+![chirpstack1](https://lh6.googleusercontent.com/uoZ1Qv_YIzgtJytbvsQNwlBHtKicu3iP5hKp98Bqr3wYe82LMJz6rqYT8aE6BJ-lV0SRPbBgqvo1tpLTnmyVbHJpkLKXKaIXwCxSgcSM5oxYB3uSl75DTdXYINCv3Eiwh_lOQds7paU)
+![chirpstack2](https://lh4.googleusercontent.com/q-NIjzrp9ygOHuid7BsepBuQNlY7BZy_NlziCVb1jm6JjTlGyL0pqDyxWWW5i9MkoSUOTy-U7fLF2k-EKHaGgKsOg7qz9dkrEhPiaZYID4iESY67Nn0GOo0YpmqbB9MGXr5N6C3UlBM)
 
 # Durée de vie 
 * La carte LoRa peut supporter 2 batteries AA 3V, chaque batterie ayant une capacite de 1500 mAh.
@@ -103,5 +104,5 @@ il est donc nécessaire de réaliser une ACV afin de s'assurer que celi-ci sera 
 ∞ = alimentation secteur
 
 # Conclusion
-
+![ProduitFinal](https://lh4.googleusercontent.com/nOxyHEM4sw4hAbwyBNJj05Vr6AKQTqEXiaHyultORnXI3AXkV954Z-mwEK-lfiPw6VK13uQmBzsxFxHrlGlcn-V0FShOT4HAZJpB6VcfIGrHg_tw9Xrvd3Qe3Hpcua3vBd5oa32DCyg)
 Malgré une alarme assez minimaliste, nous avons réussi à détecter la température, envoyer l'information au Chirpstack qui la renvoie vers Cayenne. Les signaux sonores et lumineux s'activent dès le changement brusque de température ou l'appui du bouton. Nous avons appris les bases de l'internet des objets et avons compris le fonctionnement des différents aspects permettant la mise en route d'un objet connecté, que ce soit matériel ou logiciel.
